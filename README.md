@@ -1,1 +1,1 @@
-ZZmail is a mail organizer which helps collage students to oraganize thier mails
+ZZmail is a mail organizer which helps collage students to oraganise their mails
