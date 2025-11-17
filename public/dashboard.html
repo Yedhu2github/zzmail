@@ -1,0 +1,74 @@
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Sorting System</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+        </main>
+                <div>
+                    <div id="content2">
+
+                     <div class="topic-menu-item email-card urgent">
+
+                    <div class="importance">Urgent</div>
+                    </div>
+                    <div class="topic-menu-item email-card deadline">
+                    <div class="importance">Deadline</div>
+                    </div>
+                    <div class="topic-menu-item email-card informational"> 
+                    <div class="importance">Informational</div>
+                    </div>
+                </div><br><br><br><br><br><br><br><br><br><br><br>
+
+
+        <div id="content">
+        <div class="email-feed">
+            <!-- Example Email Card 1: Urgent -->
+            <div class="email-card urgent">
+                
+                <h3>Email Subject: Project Deadline Approaching</h3>
+                <p class="summary">Summary: The project deadline is tomorrow. Key actions: Review and submit final report.</p>
+                <div class="extracted-info">
+                    <p><strong>Dates/Events:</strong> Deadline: 2023-10-15</p>
+                    <p><strong>Links:</strong> <a href="#">project-report.pdf</a></p>
+                    <p><strong>Company/Community Names:</strong> TechCorp, DevCommunity</p>
+                </div>
+                <button class="calendar-btn">Add to Calendar</button> <!-- Placeholder; needs JS/API -->
+            </div>
+            
+            <!-- Example Email Card 2: Deadline -->
+             
+            <div class="email-card deadline">
+                
+                <h3>Email Subject: Meeting Reminder</h3>
+                <p class="summary">Summary: Team meeting scheduled for next week. Agenda includes budget review.</p>
+                <div class="extracted-info">
+                    <p><strong>Dates/Events:</strong> Meeting: 2023-10-20 at 10:00 AM</p>
+                    <p><strong>Links:</strong> <a href="#">meeting-agenda.docx</a></p>
+                    <p><strong>Company/Community Names:</strong> GlobalTech</p>
+                </div>
+                <button class="calendar-btn">Add to Calendar</button>
+            </div>
+            
+            <!-- Example Email Card 3: Informational -->
+            <div class="email-card informational">
+                <div class="importance">Informational</div>
+                <h3>Email Subject: Newsletter Update</h3>
+                <p class="summary">Summary: Monthly newsletter with community news and upcoming events.</p>
+                <div class="extracted-info">
+                    <p><strong>Dates/Events:</strong> Community Meetup: 2023-11-05</p>
+                    <p><strong>Links:</strong> <a href="#">newsletter.pdf</a></p>
+                    <p><strong>Company/Community Names:</strong> OpenSourceHub</p>
+                </div>
+                <button class="calendar-btn">Add to Calendar</button>
+            </div>
+        </div>
+    </div>
+    </main>
+    
+   
+</body>
+</html>
